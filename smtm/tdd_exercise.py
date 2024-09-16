@@ -12,7 +12,7 @@ class TddExercise:
     def __init__(self):
         self.data = []
         self.to = None
-        self.count = 100
+        self.count = 50
 
     def set_period(self, to, count):
         self.to = to
@@ -25,4 +25,5 @@ class TddExercise:
         response = requests.get(self.URL, params=query_string)
         self.data = response.json()
         # print(self.data)
-        # print(self.data[0])
+        # print(f"self.data[0]={self.data[0]}")
+        # print(f"{self.data[-1]}=")
