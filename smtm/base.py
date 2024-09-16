@@ -2,3 +2,6 @@
 class Base():
     def say_hello(self):
         return 'hello world!'
+    
+    def say_bye(self):
+        return 'goodbye world!'

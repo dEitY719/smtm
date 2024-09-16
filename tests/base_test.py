@@ -12,3 +12,7 @@ class BaseTests(unittest.TestCase):
     def test_say_hello_return_hello_world(self):
         base = Base()
         self.assertEqual(base.say_hello(), 'hello world!')
+        
+    def test_say_bye_return_bye_world(self):
+        base = Base()
+        self.assertEqual(base.say_bye(), 'goodbye world!')

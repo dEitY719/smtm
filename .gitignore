@@ -13,3 +13,4 @@ temp.ipynb
 dump.*
 smtm.db
 test.db
+.venv
